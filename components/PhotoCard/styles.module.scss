@@ -1,0 +1,36 @@
+.container{
+    margin-bottom: 10px;
+    border-radius: 0!important;
+    button, a {
+        width: 35px;
+        height: 35px;
+    }
+    svg{
+        width: 20px;
+    }
+}
+
+.media{
+ height: 0;
+ padding-top: 56.25%;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    &__actions{
+        display: flex;
+        align-items: center;
+    }
+}
+
+.like{
+    svg{
+        margin-right: 3px;
+    }
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.54);
+}

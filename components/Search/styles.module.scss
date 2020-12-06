@@ -1,0 +1,19 @@
+.search{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    min-width: 180px;
+    width: 100%;
+    input{
+        padding: 5px 7px;
+    }
+    button{
+        width: 30px;
+        height:30px;
+        margin-top: 15px;
+        svg{
+            cursor: pointer;
+            width: 22px;
+        }
+    }
+}

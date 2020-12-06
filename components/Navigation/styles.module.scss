@@ -1,0 +1,60 @@
+.burger{
+    display: none;
+    position: absolute;
+    margin: 3px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 3px 10px 10px 13px;
+    width: 200px;
+    box-sizing: border-box;
+
+    a{
+      display: flex;
+      font-size: 14px;
+      align-items: center;
+      width: max-content;
+    }
+}
+
+.badge{
+    span {
+        top: 3px;
+        left:4px;
+        font-size: 0.50rem;
+        height: 15px;
+        min-width: 10px;
+    }
+
+}
+
+.iconLink {
+    margin-right: 5px;
+    width: 14px;
+    height: 14px;
+}
+
+@media (max-width: 600px) {
+
+  .burger{
+      display: block;
+      margin-right: 15px;
+  }
+  .menu{
+    position: absolute;
+    width: 100%;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+    top: -180px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.show{
+    top:0!important;
+}
